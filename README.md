@@ -21,6 +21,10 @@ Summary: Summarize the overall results of the deep learning model. Include a rec
 In my first attempt I used the default inputs of 8 nuerons, 6 layers has the defualt relu fuctions along with a sigmoid function for classification. I was only able to achieve a 73% accuracy. In my subsequent 3 attempts I reduced the thresholds for classifications, removed the status column to help throw out unnecessary data but only achieved a 72% accuracy. I then increased the number of nuerons to 12, while keeping the same features as before achieving 72% accuracy again. Finally I reduced both nuerons and layers to 8 and 4 respectively only to achieve 72% accuracy again. 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
+![This is an image](https://i.imgur.com/z9ewrtm.png)
+![This is an image](https://i.imgur.com/D6uqbpw.png)
+![This is an image](https://i.imgur.com/6MabRDU.png)
+
 ## Summary
 
 After 3 attempts I was unable to achieve 75% target accuracy. Perhaps machine learning models like random forests or deep learning would be better in getting the accuracy right as they are much more in tune to binary classification and sigmoid functions as described in module 20.5.2. When you have too few features to train the nueral network they become prone to overfitting and can be hard to train. 
